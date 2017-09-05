@@ -1,0 +1,12 @@
+<div class="wrapper">
+<marquee behavior="alternate"><h2 class="marquee"> {{title}}</h2></marquee>
+</div>
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="container" >
+<div class="row"> 
+  <div class="col-lg-6" ><a [routerLink]="['/List']" >{{title1}}</a></div>
+   <div class="col-lg-6" >{{title2}}</div>
+   <router-outlet></router-outlet>
+</div>
+</div>

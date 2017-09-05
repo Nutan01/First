@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files *
+/
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+#new{
+    float: left;
+}
+
+.navbar {
+  
+  margin: 0 0 0 0;
+}
+nav
+{
+    align-content: left;
+    float: left;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
